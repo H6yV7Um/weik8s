@@ -1,0 +1,10 @@
+export ccConfHome=/data0/rsync_data/control_center/ccConfs
+export JAVA_HOME=$ccConfHome/yarn-setting/jdk1.8.0_131
+export HADOOP_HOME=$ccConfHome/yarn-setting/hadoop-2.7.3
+export HIVE_HOME=$ccConfHome/yarn-setting/apache-hive-1.2.1-bin
+export SPARK_HOME=$ccConfHome/yarn-setting/spark-2.0.2-bin-hadoop2.7
+export HADOOP_CONF_DIR=$ccConfHome/yarn-setting/etc/hadoop
+export SCALA_HOME=$ccConfHome/yarn-setting/scala-2.11.8
+export PATH=$JAVA_HOME/bin:$HADOOP_HOME/bin:$HIVE_HOME/bin:$SPARK_HOME/bin:$SCALA_HOME/bin:$PATH
+export HADOOP_USER_NAME=feed_weibo
+export HADOOP_CONF_DIR=/data0/rsync_data/control_center/ccConfs/yarn-setting/EMR-118-conf
